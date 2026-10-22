@@ -1,0 +1,22 @@
+{
+  "name": "aswin-keertika-wedding-website",
+  "version": "1.0.0",
+  "description": "Bespoke Italian Lace Wedding Invitation Website for Keertika & Aswin",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "node serve.js",
+    "test": "node test_edge.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.6.0"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "italian-lace",
+    "interactive"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

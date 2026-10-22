@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="out">loading</div>
+<video id="vid" src="gemini_generated_video_8eb72810.mp4"></video>
+<script>
+  const v = document.getElementById('vid');
+  v.onloadedmetadata = () => {
+    document.getElementById('out').innerText = `WIDTH:${v.videoWidth},HEIGHT:${v.videoHeight},DUR:${v.duration}`;
+  };
+</script>
+</body>
+</html>
