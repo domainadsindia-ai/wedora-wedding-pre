@@ -1,7 +1,7 @@
 {
-  "name": "aswin-keertika-wedding-website",
+  "name": "keerthy-ashwin-wedding-website",
   "version": "1.0.0",
-  "description": "Bespoke Italian Lace Wedding Invitation Website for Keertika & Aswin",
+  "description": "Bespoke Italian Lace Wedding Invitation Website for Keerthy & Ashwin",
   "main": "serve.js",
   "scripts": {
     "start": "node serve.js",
